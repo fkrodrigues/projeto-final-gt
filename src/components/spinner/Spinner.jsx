@@ -4,7 +4,7 @@ const Spinner = ()=> {
   return (
     <div className="spinner-container">
       <div className="spinner"></div>
-      <p>Carregando conteúdo...</p>
+      <p>Carregando o site...</p>
     </div>
   );
 }

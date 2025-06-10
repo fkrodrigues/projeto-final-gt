@@ -1,6 +1,8 @@
 import ItemProduto from "./ItemProdutoAlta";
 
-const ProdutoPesquisa = ({arrayItemProduto}) => {
+const ProdutoPesquisaDetalhe = ({arrayItemProduto}) => {
+
+  
     return ( 
 
         <div className=" 
@@ -24,4 +26,4 @@ const ProdutoPesquisa = ({arrayItemProduto}) => {
      );
 }
  
-export default ProdutoPesquisa;
+export default ProdutoPesquisaDetalhe;

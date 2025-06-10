@@ -7,6 +7,7 @@ const AbaProdutoPesquisa = lazy(() => import("../pages/AbaProdutoPesquisa"));
 
 import Layout from "../layout/Layout";
 import Spinner from "../components/spinner/Spinner";
+import AbaProdutoDetalhe from "../pages/AbaProdutoDetalhe";
 
 
 const Paths = () => {
@@ -19,6 +20,7 @@ const Paths = () => {
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
               <Route path="/produtos" element={<AbaProdutoPesquisa />} />
+              <Route path="/produtosd" element={<AbaProdutoDetalhe />} />
             </Route>
 
           </Routes>

@@ -210,7 +210,11 @@ const AbaProdutoPesquisa = () => {
     ]
 
     return ( 
-        <div className=" flex flex-col items-center xs:">
+        <div className=" 
+           flex flex-col items-center 
+           xs: 
+           h-[2600px]
+        ">
 
           <div className="flex justify-between w-[1300px] my-10">
 
@@ -219,30 +223,34 @@ const AbaProdutoPesquisa = () => {
                <p>- 389 produtos</p>
             </div>
 
-            <div className="flex">
+            <div className="flex gap-1">
                <h4>
                   <label htmlFor="ordenar">
-                  Ordenar por:
+                  Ordenar por: 
                   </label>
                </h4>
                <select id="ordenar">
-                 <option value="op1">mais relevantes</option>
-                 <option value="op2">mais recentes</option>
-                 <option value="op2">mais antigos</option>
+                 <option value="op1">mais relevantes
+                 </option>
+                 <option value="op2">maior preço</option>
+                 <option value="op3">menor preço</option>
                </select>
             </div>
 
           </div>
 
-          <div className="flex w-[1300px] ">
+          <div className="flex w-[1300px]
+             h-[720px]
+          ">
              <div className="
                bg-white
-
-               
+               w-[310px]
+               text-[#474747]
                ">
-                <h4>Filtrar Por</h4>
+                <h4 className="my-5 ml-5  w-30">Filtrar por</h4>
                 <hr className="
-                 text-[#CCCCCC] w-[248px]
+                 text-[#CCCCCC] w-[220px]
+                  ml-5
                  "/>
                 <FiltrarPor arrayFiltros={arrayFiltros}/>
              </div>

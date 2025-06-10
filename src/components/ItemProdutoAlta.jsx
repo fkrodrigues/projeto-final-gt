@@ -3,7 +3,7 @@ const ItemProduto = ({desconto, imagem, tipo, titulo, precoDe, precoPor}) => {
         <div className="w-[300px] h-[439px]">
             <div className="relative
              bg-white shadow-sm rounded-[5px]
-             w-[315px] h-[347px] 
+               w-[315px] h-[347px] 
              
              ">
                 <div className='
@@ -18,7 +18,7 @@ const ItemProduto = ({desconto, imagem, tipo, titulo, precoDe, precoPor}) => {
                 '>{desconto}</div>
 
                  <div className='
-                   gap-[50px] flex justify-center items-center
+                    flex justify-center items-center
                    h-full
                     '>
                     <img className='
